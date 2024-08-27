@@ -1,0 +1,12 @@
+name: demo1
+
+on:
+  workflow_dispatch:
+
+jobs:
+  demo1:
+    runruns-on: ubuntsu-latest
+    steps:
+      - name: Greet
+        run: echo "hello"
+        
